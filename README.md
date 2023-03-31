@@ -1,27 +1,34 @@
-﻿# pywav2mp3-annias
 WAV to MP3 Converter
-This is a Python program that converts WAV audio files to MP3 format using the Pydub library. The program provides a simple graphical user interface (GUI) that allows the user to select a WAV file to convert, and then converts it to MP3 with the click of a button.
+
+This program converts WAV audio files to MP3 format. It is built using Python and the Pydub library.
 
 Requirements
-To use this program, you'll need to have the following installed:
 
-Python 3
+Python 3.x
 Pydub library
+
+Installation
+
+Clone this repository to your local machine.
+
+Install Pydub using pip install pydub.
+
 Usage
-Clone the repository or download the code files.
 
-Open a command prompt or terminal window and navigate to the directory containing the program files.
+Run main.py
 
-Run the program by entering the following command:
+The program will display a list of available WAV files in the current directory.
 
-Copy code
-python wav2mp3.py
-The program will open a GUI window displaying a list of available WAV files in the directory. Select a file from the list, enter the desired output filename, and click the "Convert" button.
+Enter the filename of the WAV file you want to convert.
 
-The program will convert the selected file to MP3 format and save it in the same directory.
+Press the "Convert" button.
+
+The program will convert the selected file to MP3 and display a success message.
 
 Contributing
-If you'd like to contribute to this project, feel free to submit a pull request or open an issue.
+
+Contributions are welcome! If you find any bugs or have suggestions for new features, please open an issue or submit a pull request.
 
 License
+
 This program is licensed under the MIT License. See the LICENSE file for details.
